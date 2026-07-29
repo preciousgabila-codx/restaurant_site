@@ -1,0 +1,32 @@
+<svg width="360" height="110" viewBox="0 0 360 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Mama's Kitchen logo</title>
+  <desc id="logoDesc">Orange circular badge with a chef hat and utensils, next to the restaurant name Mama's Kitchen in orange and white.</desc>
+
+  <!-- Badge -->
+  <circle cx="55" cy="55" r="48" fill="#FFA500"/>
+  <circle cx="55" cy="55" r="48" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- Chef hat -->
+  <g transform="translate(55,38)">
+    <path d="M -16 10
+             C -16 -2, -10 -10, -2 -9
+             C 0 -14, 8 -14, 10 -9
+             C 18 -10, 22 -2, 20 8
+             L 20 14
+             L -16 14
+             Z" fill="#FFFFFF"/>
+    <rect x="-16" y="12" width="36" height="6" rx="2" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Crossed spoon and fork -->
+  <g stroke="#FFFFFF" stroke-width="3" stroke-linecap="round">
+    <line x1="34" y1="72" x2="76" y2="86"/>
+    <line x1="76" y1="72" x2="34" y2="86"/>
+  </g>
+  <circle cx="34" cy="72" r="3" fill="#FFFFFF"/>
+  <circle cx="76" cy="72" r="3" fill="#FFFFFF"/>
+
+  <!-- Wordmark -->
+  <text x="120" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="bold" fill="#FFA500">Mama's Kitchen</text>
+  <text x="120" y="74" font-family="Verdana, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#FFA500" opacity="0.75">HOME-STYLE COOKING</text>
+</svg>

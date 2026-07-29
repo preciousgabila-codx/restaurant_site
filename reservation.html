@@ -3,32 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YOUR RRESERVATION</title>
+    <title>MAMA'S-KITCHEN</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Fill all necessary info below to set secure your reserved place.</p>
-    <form action="submit">
-        <label for="full-name">Full Name:</label>
-        <input type="text" id="full-name" name="full-name" placeholder="Eneter your full name e.g Zack Storm"><br><br>
-        <label for="phone-number">Phone Number:</label>
-        <input type="number" id="phone-number" name="phone-number" placeholder="Enter your contact e.g +237 654452555"><br><br>
-        <label for="Email">Email:</label>
-        <label for="date">Date:</label>
-        <input type="datetime" id="date" name="date" placeholder="Enter your date e.g 02/04/2026"><br><br>
-        <input type="email" id="'Email" name="Email" placeholder="Enter your email e.g zackstorm@gmail.com"><br><br>
-        <label for="time">Time:</label>
-        <input type="datetime" id="'time" name="time" placeholder="Enter your time e.g 2:30PM"><br><br>
-        <label for="number-of-guest">Number of guest:</label>
-        <input type="number" id="'number-of-guest" name="number-of-guest" placeholder="Enter your number of guest e.g 5"><br><br>
-        <label for="request">Request:</label>
-        <input type="text" id="request" name="request" placeholder="Enter your request e.g I will like this special table."><br><br>
-        <input type="submit" value="submit"><br><br> 
-   </form>
-   <header>
-    <nav>
-     <p>Back to home page by clicking the link below.</p>
-     <a href="index.html">Home</a>
-   </nav>
-   </header>
+    <header>
+        <div class="logo"><img src="/images/logo.svg" alt="Restaurant Logo"></div>
+        <div class="nav-links">
+            <nav><a href="index.html">HOME</a></nav>
+            <nav><a href="about.html">ABOUTUS</a></nav>
+            <nav><a href="menu.html">MENU</a></nav>
+            <nav><a href="reservation.html">RESERVATION</a></nav>
+        </div>
+        <div>
+            <button type="button">SIGNUP</button>
+            <button type="button">PROFILE</button>
+        </div>
+    </header>
+    <p>Rerve Your Table</p> 
+    <form action="submit" class="reserve-form">
+        <div class="form-input">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name">
+        </div>
+        <div class="form-input">
+            <label for="phone-number">Phone Number:</label>
+            <input type="number" id="phone-number" name="phone-number">
+        </div>
+        <div class="form-input">
+            <label for="Email">Email:</label>
+            <input type="email" id="'Email" name="Email">
+        </div>
+        <div class="form-input">
+            <label for="date">Date:</label>
+            <input type="datetime" id="date" name="date">
+        </div>
+        <div class="form-input">
+            <label for="time">Time:</label>
+            <input type="datetime" id="'time" name="time">
+        </div>
+        <div class="form-input">
+            <label for="number-of-guest">Number of guest:</label>
+            <input type="number" id="'number-of-guest" name="number-of-guest">
+        </div>
+        <div class="form-input">
+            <label for="request">Request:</label>
+            <input type="text" id="request" name="request">
+        </div>
+        <input type="submit" value="SUBMIT">
+    </form>
+    <footer>
+        <p class="copy">© Copyright Mama's kitchen all right reserved 2026</p>
+    </footer>
 </body>
 </html> 
