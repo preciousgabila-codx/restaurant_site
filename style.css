@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: urL(/images/backgroundimage.avif);
+    background-image: urL(images/backgroundimage.avif);
     background-size: cover;
 }
 header{
